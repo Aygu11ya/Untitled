@@ -1,0 +1,389 @@
+@import url(fonts.css);
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+    outline: none;
+    border: none;
+    background: none;
+    font-family: OpenSans;
+}
+
+body {
+    max-width: 1920px;
+    width: 100%;
+    margin: auto;
+
+}
+
+.container {
+    max-width: 1320px;
+    padding: 0 15px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.header {
+    padding: 20px 0;
+    background: url(../img/header.png);
+    background-position: center;
+    background-size: cover;
+}
+
+.header .container {  
+    text-align: center;
+}
+
+
+.header h1 {
+    color: #FFF;
+    font-size: 60px;
+    font-weight: 400;
+    padding-top: 318px;
+
+}
+
+.header p {
+    color: #FFF;
+    font-size: 16px;
+    font-weight: 600;
+    padding-bottom: 200px;
+}
+
+.header span {
+    color: #FFF;
+    font-size: 11px;
+    font-weight: 600;
+}
+
+.main-nav {
+    padding: 20px 0;
+    border-bottom: 1px solid #E6E6E6;
+}
+
+.main-nav .container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 500px;
+   
+  
+}
+.burger{
+    display: none;
+}
+
+ .list {
+    display: flex;
+    gap: 30px;
+    font-size: 12px;
+    font-weight: 600;
+}
+
+.main-nav .container a {
+    color: #48555B;
+}
+
+.main-nav .container a:hover {
+    color: #00A4E5;
+}
+
+.our h2 {
+    color: #48555B;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 700;
+    padding: 30px 0 5px;
+
+}
+
+.our h2:hover {
+    border-bottom: #00A4E5 solid 2px ;
+}
+
+.our .container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+    
+}
+
+.our-content {
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+
+}
+
+.our-content h3 {
+    color: #48555B;
+    font-size: 20px;
+    font-weight: 700;
+    width: 405px;
+    height: 115px;
+    margin-top: 15px;
+}
+
+.our-content span {
+    color: #16ACE8;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.our-content p {
+    width: 405px;
+    height: 115px;
+    color: #48555B;
+    font-size: 13px;
+    font-weight: 400;
+}
+
+.story-content {
+    display: flex;
+    gap: 20px;
+    padding-top: 30px;
+}
+
+.story-content a {
+    position: relative;
+
+}
+
+.story-content p {
+    position: absolute;
+    transform: translateY(-200px);
+    color: #FFF;
+    font-size: 24px;
+    font-weight: 800;
+    left: 10px;
+    right: 50px;
+}
+
+.capabilities .container {
+    padding: 50px 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 100px;
+   
+}
+
+.capabilities h2 {
+    color: #48555B;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 700;
+    width: 199px;
+    
+}
+
+.capabilities h2:hover {
+    border-bottom: #00A4E5 solid 2px;
+}
+
+.capabilities p {
+    width: 405px;
+    height: 38px;
+    color: #48555B;
+    font-size: 11px;
+    font-weight: 400;
+}
+
+.capabilities a {
+    padding: 11px 29px;
+    background: #00A4E5;
+    color: #FFF;
+    font-size: 13px;
+    font-weight: 700;
+}
+
+.lorem .container {
+    display: flex;   
+    gap: 25px;
+    margin: 10px auto 40px;
+}
+
+.project-content {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    border: 1px solid #E6E6E6;
+    padding: 38px 22px;
+    color: #48555B;
+    font-size: 16px;
+    font-weight: 700;
+
+}
+
+.srtucture-content {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    border: 1px solid #E6E6E6;
+    padding: 38px 22px;
+    color: #48555B;
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.factory-content {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    border: 1px solid #E6E6E6;
+    padding: 38px 22px;
+    color: #48555B;
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.amazing {
+    background: url(../img/section-amazing.png);
+    height: 498px;
+    background-position: center;
+    background-size: cover;
+}
+
+.amazing .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+  
+   
+}
+
+.amazing .container h2 {
+    color: #48555B;
+    font-size: 30px;
+    font-weight: 700;
+    text-align: center;
+    padding-top: 200px;
+   
+}
+
+.amazing .container a {
+    color: #FFF;
+    padding: 11px 26px;
+    font-size: 13px;
+    font-weight: 700;
+    background: #00A4E5
+}
+
+.footer-nav {
+    background: #171819;
+   
+
+}
+
+.footer-nav .container {
+    display: flex;
+    gap: 69px;
+    align-items: center;
+    justify-content: center;
+    height: 100px;
+}
+
+.footer-nav .container h4 {
+    color: #FFF;
+    font-size: 22px;
+    font-weight: 700;  
+    
+}
+form{
+    display: flex;
+
+}
+input {
+    padding: 10px 97px 10px 17px;
+    background: #FFF;
+    
+}
+
+button {
+    background: #00A4E5;
+    padding: 11px 50px;
+    color: #FFF;
+    font-size: 13px;
+    font-weight: 700;
+   
+}
+.footer-header{
+    background: #141A20;
+}
+.footer-header .container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 300px;
+    padding: 38px 20px;
+}
+.footer-header .section-one{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    color: #FFF;
+    font-size: 11px;
+}
+.section-one ul{
+    display: flex;
+    gap: 25px;
+}
+.section-two ul{
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+    
+}
+.section-two{
+    max-width: 100px;
+    max-height: 159px;
+    font-size: 11px;
+    color: #FFF;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+.section-two ul{
+    max-height: 100px; 
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.section-two a{
+    color: #fff;
+ 
+}
+.section-three{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    color: #FFF;
+    font-size: 11px;    
+}
+.section-three ul{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.section-three a{
+    color: #FFF;
+}
+.footer-footer{
+    background: #171819;
+    height: 60px;
+}
+.footer-footer p{
+    color: #FFF;
+    font-size: 11px;
+    font-weight: 700;
+    text-align: center;
+    padding: 22px 0;
+}
